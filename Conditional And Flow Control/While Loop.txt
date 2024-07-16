@@ -1,0 +1,32 @@
+While Loop
+
+Given a number x, the task is to print the numbers from x to 0 in decreasing order in a single line.
+
+Example 1:
+
+Input:
+3
+Output:
+3 2 1 0
+Explanation:
+Numbers in decreasing order from 3 are
+3 2 1 0.
+Your Task:
+You don't need to take any input. Just complete the mentioned codes.
+
+SOLUTION
+
+def utility():
+    #The line below takes input. Don't chamge it!
+    x=int(input())
+    
+    # Complete the code below
+    while(x >= 0):
+        
+        # your statement below to print the number
+        # in decreasing order
+        # Note: use end=" " parameter with print to seperate numbers by space.
+        ##Output for testcases will automatically separated by a new line by the print() in driver code
+        
+        print(x,end = " ")
+        x -= 1
