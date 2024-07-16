@@ -1,0 +1,38 @@
+Change Case
+
+Given a string s, you need to perform the following operation.
+
+1. Capitalize the first letter and print.
+
+2. Convert the whole string to uppercase and print.
+
+Example 1: 
+
+Input:
+s = "hello"
+Output: 
+Hello
+HELLO
+Explanation: In Hello,the first letter is
+capitalized. In HELLO all letters are in
+the uppercase.
+Example 2:
+
+Input:
+s = "world"
+Output:
+World
+WORLD
+Explanation: In World,the first letter is
+capitalized. In WORLD all letters are in
+the uppercase.
+Your Task: 
+The input s is provided as a parameter to the function changeCase. You need to print after performing the operation.
+
+SOLUTION
+def changeCase(s):
+    
+    # code here to print capitalized,  and then in the upper case
+    print(s.capitalize())
+    print(s.upper())
+

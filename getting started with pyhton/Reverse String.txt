@@ -1,0 +1,21 @@
+Reverse String
+
+
+Given a string s, you need to reverse it.
+
+Examples
+
+Input:s = "Hello"
+Output:olleH
+Explanation: Reverse of Hello is olleH
+Input:s = "World"
+Output:dlroW
+Explanation: Reverse of World is dlroW
+Your Task: 
+The input s is provided as a parameter to the function reverseString(). You need to reverse it and return it so it can be printed by the driver code.
+
+SOLUTION
+def reverseString(s):
+    #Write your code below to reverse s and return it
+    
+    return (s[::-1])

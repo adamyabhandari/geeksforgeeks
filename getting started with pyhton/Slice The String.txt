@@ -1,0 +1,28 @@
+Slice The String
+
+
+Given a string s, you need to slice it so that the output is a substring that contains all the chracters except first and last. The length of the s will be greater than 2.
+
+Example 1:
+
+Input:
+s = "Hello"
+Output: 
+ell
+Explanation: The first and last character
+are ignored.
+Example 2:
+
+Input:
+s = "World"
+Output:
+orl
+Explanation: The first and last characters
+are ignored.
+Your Task: 
+The input s is provided as a parameter to the function sliceString. You need to return the sliced string. The driver code will print the output.
+
+SOLUTION
+def sliceString(s):
+    #Write your code below
+    return (s[1:len(s)-1])

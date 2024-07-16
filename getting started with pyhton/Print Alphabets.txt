@@ -1,0 +1,32 @@
+Print Alphabets
+
+Given two char c1 and c2.  you need to print all the alphabet starting from c1 to c2, separated by space, in a single line.
+
+Example 1:
+
+Input:
+c1 = 'a'
+c2 = 'z'
+Output: 
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+Explanation:  Printed alphabets from a to z.
+Example 2:
+
+Input:
+c1 = "h"
+c2 = "u"
+Output:
+h i j k l m n o p q r s t u
+Explanation: Printed alphabets from h to u.
+Your Task: 
+The input characters c1 and c2 are provided as a parameter to the function alphabets. You need to print the alphabets in a single line, separated by space. The new line is provided by the driver code, so don't provide an extra new line.
+
+SOLUTION
+def alphabets(c1,c2):
+    
+    #Code below to print alphabets from c1 to c2
+    # Don't provide a new line after printing
+    a=ord(c1)
+    b=ord(c2)
+    for i in range(a,b+1):
+        print(chr(i), end=" ")

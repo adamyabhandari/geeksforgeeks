@@ -1,0 +1,44 @@
+Check Palindrome
+
+You are given a number n. You need to see if the number is a palindrome or not (recursively)
+
+Example 1:
+
+Input:
+n = 100
+Output: 0
+Example 2:
+
+Input:
+n = 101
+Output: 1
+Your Task:
+
+Complete the function isPalin that takes n as parameter and returns true or false . (In case of true, 1 will be printed by the driver code, otherwise 0)
+
+Expected Time Complexity: O(Log(N)).
+Expected Auxiliary Space: O(Log(N)) (Recursive).
+
+Constraints:
+1 <= n <= 108
+
+SOLUTION -> The provided code is in JAva
+class Solution
+{
+    // Complete the function
+    // N: input element
+    static boolean isPalin(int N)
+    {
+        // Check if the number is palindrome or not
+        //You may use a helper function if you like
+        int a=N;
+        int rem=0;
+        int c=0;
+        while(a!=0){
+            rem=a%10;
+            c=c*10+rem;
+            a=a/10;
+        }
+        return c== N;
+    }
+}
