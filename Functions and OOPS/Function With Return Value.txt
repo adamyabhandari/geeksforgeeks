@@ -1,0 +1,17 @@
+Function With Return Value
+
+Here one integer n is given. You need to write the complete function returnValueFunction that takes n as a parameter and uses the return keyword to return double the value of n.
+
+Example 1:
+
+Input:
+n = 2
+Output: 
+4
+Explanation: 2 * 2 = 4.
+Your Task: 
+You have to declare and define the function returnValueFunction. This function should take one argument n which will then doubled by doing return 2*n. The driver code prints the returned value.
+
+SOLUTION
+def returnValueFunction(n):
+    return 2*n

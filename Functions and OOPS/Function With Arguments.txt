@@ -1,0 +1,19 @@
+Function With Arguments
+
+
+Here two integers a and b are given. The take input and their values are passed as arguments to the function argumentFunction. The argumentFunction is responsible for the syntax print(a+b). You need to write this function.
+
+Example 1:
+
+Input:
+a = 2
+b = 3
+Output: 
+5
+Explanation: 2+3=5.
+Your Task: 
+You have to declare and define the function argumentFunction. This function should take two arguments a and b which will then be added and printed by the syntax print(a+b). The driver code only calls the function.
+
+SOLUTION
+def argumentFunction(a,b):
+    print(a+b)

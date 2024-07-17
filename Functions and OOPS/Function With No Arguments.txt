@@ -1,0 +1,20 @@
+Function With No Arguments
+
+
+This problem has no input. You need to write the function helloFunction that prints Hello.
+
+Example 1:
+
+Input:
+No Input
+Output: 
+Hello
+Explanation: 
+There is no input. 
+The function prints Hello everytime.
+Your Task: 
+You have to declare and define the function helloFunction and the function should have the statement print("Hello") in it. The function is called by the driver code.
+
+SOLUTION
+def helloFunction():
+    print("Hello")
